@@ -7,10 +7,7 @@ h1, h2, h3, h4, h5{
   font-family: "Montserrat", sans-serif;
 }
 
-img {
-  width: 100%;
-  display: flex;
-}
+
 
 a {
   text-decoration: none;
@@ -18,39 +15,13 @@ a {
 
 body {
   font-family: "Montserrat", sans-serif;
+
+}
+.testimonialImg{
+  height: 60px;
+  width: 60px;
 }
 
-nav {
-  max-width: var(--max-width-1200);
-  margin: auto;
-  padding: 2rem 1rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.nav__links {
-  flex: 1;
-  list-style: none;
-  display: flex;
-  align-items: center;
-  gap: 2rem;
-}
-
-.link a {
-  font-weight: 500;
-  color: var(--text-dark);
-}
-
-.link a:hover {
-  color: var(--primary-color);
-}
-
-.img {
-    width: 12% !important;
-    height: 21%;
-}
-.img2 {
-    width: 6% !important;
-    height: 21%;
+.greencolor{
+  color: #1B99D4,
 }
