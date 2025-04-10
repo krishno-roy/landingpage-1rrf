@@ -45,10 +45,10 @@ const FAQ = () => {
           {faqs.map((faq, index) => (
             <div
               key={index}
-              className=" border border-gray-200 rounded-lg  p-5 cursor-pointer transition-all duration-300"
+              className=" border border-gray-200  rounded-lg p-3 cursor-pointer transition-all duration-300"
               onClick={() => toggleFAQ(index)}
             >
-              <div className="flex items-center gap-3">
+              <div className="flex items-center gap-3 ">
                 <div className="text-xl text-[#1B99D4]">
                   {activeIndex === index ? <FaMinus /> : <FaPlus />}
                 </div>

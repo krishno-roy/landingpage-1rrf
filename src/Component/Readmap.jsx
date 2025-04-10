@@ -66,7 +66,7 @@ const Readmap = () => {
             {faqs.map((faq, index) => (
               <div
                 key={index}
-                className="border border-gray-300  rounded-lg cursor-pointer transition-all duration-300 pb-4"
+                className="border border-gray-300 p-2  rounded-lg cursor-pointer transition-all duration-300 pb-4"
                 onClick={() => toggleFAQ(index)}
               >
                 <div className="flex justify-between p-1 items-center">
