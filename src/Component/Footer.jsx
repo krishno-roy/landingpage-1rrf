@@ -1,5 +1,5 @@
 import React from 'react'
-import FImg from "../assets/logo.png";
+import LogoImg from "../assets/logo.png";
 import { FaFacebookF, FaLinkedinIn, FaPhoneAlt, FaTwitter } from 'react-icons/fa';
 import { SlSocialPintarest } from 'react-icons/sl';
 import { MdKeyboardDoubleArrowRight } from 'react-icons/md';
@@ -11,7 +11,7 @@ const Footer = () => {
     <div className="bg-[#1B99D4] px-12">
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-4 py-14 gap-5 space-y-3">
         <div className="space-y-4">
-          <img src={FImg} alt="" />
+          <img src={LogoImg} alt="" />
           <p className="text-white">
             It is a long established fact that a reader will be distracted by
             the readable content of a page when looking at its layout. The point
@@ -96,7 +96,7 @@ const Footer = () => {
           <ul className="space-y-4">
             <li>
               <a href="/" className="flex gap-2  text-white">
-                <PiMapPin className='size-8'/>
+                <PiMapPin className="size-8" />
                 4517 Washington Ave. Manchester, Kentucky 39495
               </a>
             </li>
